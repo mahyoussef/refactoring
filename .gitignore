@@ -6,5 +6,5 @@ target/
 *.iml
 
 # Log files
-*.out
+out/
 
