@@ -1,0 +1,10 @@
+# Java class files
+target/
+
+# IntelliJ configuration
+.idea
+*.iml
+
+# Log files
+*.out
+
