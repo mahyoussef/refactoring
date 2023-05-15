@@ -6,7 +6,7 @@ public abstract class AbstractCardPaymentProcessorRefactored {
 
     protected String cardNumber;
     protected String cardHolder;
-    protected int CCN;
+    protected int CVV;
     protected LocalDateTime expirationDate;
 
     abstract void processCardPayment();

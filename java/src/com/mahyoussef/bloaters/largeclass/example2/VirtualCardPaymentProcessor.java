@@ -8,7 +8,7 @@ public class VirtualCardPaymentProcessor extends AbstractCardPaymentProcessorRef
     void processCardPayment() {
         // logic
         System.out.println("Processing virtual card payment...");
-        process(cardNumber, cardHolder, CCN, expirationDate);
+        process(cardNumber, cardHolder, CVV, expirationDate);
     }
 
     private void process(String cardNumber, String cardHolder, int CCN, LocalDateTime expirationDate) {
